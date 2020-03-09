@@ -1,0 +1,57 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+.square {
+    width: 30%;
+    background: purple;
+    padding-top: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 50%;
+    transition: background 0.2s;
+    
+}
+.container {
+    max-width: 500px;
+    margin: 20% auto;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    background-color: rgb(38, 149, 168);
+    margin: 0;
+    font-weight: normal;
+}
+
+.stripe {
+    background: rgb(252, 252, 252);
+    height: 40px;
+    text-align: center ;
+}
+.selected{
+    background: rgb(38, 149, 168);
+}
+button{
+    transition: all 0.3s;
+
+    border: none;
+    background: none;
+    height: 100%;
+    font-weight: 600; 
+    outline: none;
+
+}
+button:hover{
+    color: white;
+    background: rgb(38, 149, 168);
+
+}
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
