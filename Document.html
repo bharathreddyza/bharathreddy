@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/index.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> body{
+        margin: 0;
+    text-decoration: none; }
+    a{
+        text-decoration: none;
+    }
+    a:active{
+        text-decoration: none;
+    }
+    a:visited{
+        text-decoration: none;
+    }
+        </style>
+</head>
+<body>
+    <section style="  width: 100%; color: aliceblue; background-color:black; font-weight: 500;">
+        <div style="display: flex; justify-content: space-between; margin: auto 20px; height: 40px; ">
+
+            <div style="font-size: 40px">BHARATH REDDY</div>
+
+            <div style="font-size: 18px; text-decoration-color: none;">
+                <a href="https://medium.com/@bharathreddyz">BLOG</a>
+                <a href="http://127.0.0.1:5500/cg.html">PORTFOLIO</a>
+                <a href="http://127.0.0.1:5500/index.html#">CONTACT</a>
+                </div>
+
+    
+        </div>
+    </section>
+    <section>
+        <div class="profileimage" style="height: 90%; background-color: palevioletred; font-size: 20px; ">
+            <center>
+        <img src="./Document_files/42584408-stock-vector-flat-hipster-character-stylish-young-guy-with-glasses-avatar-icon-man-vector-illustration-eps10.jpg" style="border-radius: 50%;" alt="">
+   
+       <div style="margin: 20px 300px;">
+        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vitae, accusantium laudantium sunt magnam ut molestias sequi dolore, aliquam ipsa laboriosam placeat aliquid, offic
+            ia voluptatem vero aspernatur obcaecati modi aut esse. Labore, earum beatae dolorum numquam qui est voluptatum culpa ea sequi expedita pariatur praesentium corrupti fugit dolorem. Laborum, ea?</p>
+              
+       </div>
+            </center>  
+    </div>
+    </section>
+    <section>
+        <div class="content"></div>
+    </section>
+   
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
