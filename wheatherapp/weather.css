@@ -1,0 +1,48 @@
+body {
+background-image: url('./ee0a47d7342f4ab1db5590793875d53c.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: top center;
+font-family: monospace;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top:  8%;
+
+}
+
+.inputValue{
+    width: 50%;
+    max-width: 10px 15px;
+    padding: 10px 15px;
+    background-color: lavender;
+    border-radius: 30px 5px 30px 5px;
+    text-align: center;
+}
+.city{
+    font-size: 62px;
+    color: lavender;
+    font-weight: medium;
+    margin-top: 3%;
+}
+.date {
+    color: lavender;
+    font-size: 30px;
+}
+.temp {
+    color: lavender;
+    font-size: 102px;
+    font-weight: 900;
+    text-shadow: 2px 2px  cadetblue;
+}
+.desc{
+    color: lavender;
+    font-size: 60px;
+}
+
+.highlow{
+    color: lavender;
+    font-size: 30px;
+}
