@@ -22,24 +22,24 @@ font-family: monospace;
     text-align: center;
 }
 .city{
-    font-size: 62px;
+    font-size: 40px;
     color: lavender;
     font-weight: medium;
     margin-top: 3%;
 }
 .date {
     color: lavender;
-    font-size: 30px;
+    font-size: 14px;
 }
 .temp {
     color: lavender;
-    font-size: 102px;
+    font-size: 60px;
     font-weight: 900;
     text-shadow: 2px 2px  cadetblue;
 }
 .desc{
     color: lavender;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .highlow{
