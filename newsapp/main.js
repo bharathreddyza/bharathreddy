@@ -13,7 +13,7 @@ function  doSearch(e){
     loadData(inputValue)
 }
 function loadData(inputValue){
-    const  url = `http://newsapi.org/v2/top-headlines?country=${inputValue}&apiKey=adc74abeab2340f19450e7458d984a8e`
+    const  url = `https://newsapi.org/v2/top-headlines?country=${inputValue}&apiKey=adc74abeab2340f19450e7458d984a8e`
     const xhr = new XMLHttpRequest();
     xhr.open('GET',url, true)
     xhr.onload = function(){
