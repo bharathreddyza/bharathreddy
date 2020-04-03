@@ -4,12 +4,12 @@ var formSelect = document.getElementById('inputGroupSelect01');
 var appendToDataDiv  = document.getElementById('data')
 loadEventListeners()
 function loadEventListeners(){
-    formSelect.addEventListener('click', doSearch)
+    formSelect.addEventListener('change', doSearch)
 }
 function  doSearch(e){
     e.preventDefault()
     let inputValue = formSelect.value
-    console.log(inputValue)
+    // console.log(inputValue)
     loadData(inputValue)
 }
 function loadData(inputValue){
@@ -20,11 +20,11 @@ function loadData(inputValue){
         if(this.status == 200 ){
             
             var data = JSON.parse(this.responseText)
-            console.log(data.articles[1].url)
+            // console.log(data.articles[1].url)
             let articles = data.articles
             let output = ''
             articles.forEach(function(article){
-                output += `<div class=" card col-md-4 p-1 " style="margin-right:5px , width: 1300px" >
+                output += `<div class=" card col-md-4 p-1 " style="width:20rem" style="margin-right:5px , width: 1300px" >
                 <a class = "contentlink" href=${article.url}>
   
                         <img src="${article.urlToImage}" class="card-img-top" alt="...">
