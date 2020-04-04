@@ -14,7 +14,7 @@ function  doSearch(e){
 }
 function loadData(inputValue){
     
-    const  url = `http://pokeapi.co/api/v2/pokemon/${inputValue}`
+    const  url = `https://pokeapi.co/api/v2/pokemon/${inputValue}`
     console.log(url)   
      const xhr = new XMLHttpRequest();
     xhr.open('GET',url, true)
