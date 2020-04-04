@@ -1,0 +1,51 @@
+
+    body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #e74c3c !important;
+    }
+
+
+
+    .form-control-borderless {
+        border: none;
+    }
+    
+    .form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+
+    .mainTable {
+        margin-top: 15px;
+        text-align: center;
+      font-size: 16px;
+    }
+    .singlelement{
+       border: 1px solid black; 
+    }
+
+    .typebox1{
+        margin: auto 5px;
+        padding: auto 3px;
+        background-color: purple;
+    }
+
+    .typebox2{
+        margin: auto 5px;
+        padding: auto 3px;
+        background-color: darkgreen;
+    }
+body{
+}
+.td{
+    font-size: 10px !important
+
+}
+
+    
+
+   
