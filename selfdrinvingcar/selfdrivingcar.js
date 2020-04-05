@@ -20,7 +20,7 @@ const output = document.getElementById('output')
 const firstInputValue = document.getElementById('firstcase')
 const secondfInputValue = document.getElementById('secondcase')
 secondfInputValue.addEventListener('change' , compare)
-firstInputValue.addEventListener('change',compare)
+// firstInputValue.addEventListener('change',compare)
 
 function compare(){
     const getFirstValue = firstInputValue.value
